@@ -1,8 +1,8 @@
 # SlideForge v1.2 🚀
 
-[![CI/CD Pipeline](https://github.com/RFLORESCARTES/power-point-generator/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/RFLORESCARTES/power-point-generator/actions/workflows/ci-cd.yml)
-[![Code Quality](https://github.com/RFLORESCARTES/power-point-generator/actions/workflows/code-quality.yml/badge.svg)](https://github.com/RFLORESCARTES/power-point-generator/actions/workflows/code-quality.yml)
-[![codecov](https://codecov.io/gh/RFLORESCARTES/power-point-generator/branch/main/graph/badge.svg)](https://codecov.io/gh/RFLORESCARTES/power-point-generator)
+[![CI/CD Pipeline](https://github.com/RFLORESCARTES/SlideForge-v1.2/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/RFLORESCARTES/SlideForge-v1.2/actions/workflows/ci-cd.yml)
+[![Code Quality](https://github.com/RFLORESCARTES/SlideForge-v1.2/actions/workflows/code-quality.yml/badge.svg)](https://github.com/RFLORESCARTES/SlideForge-v1.2/actions/workflows/code-quality.yml)
+[![codecov](https://codecov.io/gh/RFLORESCARTES/SlideForge-v1.2/branch/main/graph/badge.svg)](https://codecov.io/gh/RFLORESCARTES/SlideForge-v1.2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Generador inteligente de presentaciones PowerPoint con IA integrada y exportación PPTX nativa**
@@ -46,15 +46,15 @@ SlideForge es una aplicación moderna de escritorio que permite crear presentaci
 ## 🚀 Instalación Rápida
 
 ### Descarga Directa (Recomendado)
-1. Descarga el archivo `.dmg` desde [Releases](https://github.com/RFLORESCARTES/power-point-generator/releases)
+1. Descarga el archivo `.dmg` desde [Releases](https://github.com/RFLORESCARTES/SlideForge-v1.2/releases)
 2. Monta el DMG y arrastra SlideForge a Aplicaciones
 3. Abre SlideForge (sin advertencias de seguridad gracias a la notarización)
 
 ### Desde Código Fuente
 ```bash
 # Clonar repositorio
-git clone https://github.com/RFLORESCARTES/power-point-generator.git
-cd power-point-generator
+git clone https://github.com/RFLORESCARTES/SlideForge-v1.2.git
+cd SlideForge-v1.2
 
 # Instalar dependencias
 npm install --legacy-peer-deps
@@ -63,6 +63,11 @@ npm install --legacy-peer-deps
 npm run dev
 
 # Construir para producción
+npm run dist:mac
+```
+Para construir sin firma de código durante el desarrollo local, ejecuta:
+```bash
+export CSC_IDENTITY_AUTO_DISCOVERY=false
 npm run dist:mac
 ```
 
@@ -288,8 +293,8 @@ git push origin v1.2.0
 - **Development Guide**: [docs/development.md](docs/development.md)
 
 ### Contacto
-- **Issues**: [GitHub Issues](https://github.com/RFLORESCARTES/power-point-generator/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/RFLORESCARTES/power-point-generator/discussions)
+- **Issues**: [GitHub Issues](https://github.com/RFLORESCARTES/SlideForge-v1.2/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/RFLORESCARTES/SlideForge-v1.2/discussions)
 
 ## 📜 Licencia
 

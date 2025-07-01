@@ -513,7 +513,7 @@ Responde con el contenido reorganizado listo para convertir en diapositivas, inc
                 </div>
               </div>
               <div>
-                <h1 className="text-3xl font-bold">PowerPoint Generator</h1>
+                <h1 className="text-3xl font-bold">SlideForge</h1>
                 <p className="text-red-100 text-sm">Generador Inteligente de Presentaciones</p>
               </div>
             </div>
