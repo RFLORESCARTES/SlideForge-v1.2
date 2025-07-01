@@ -1,11 +1,15 @@
 {
-  "name": "powerpoint-generator-mac",
-  "productName": "PowerPoint Generator",
+  "name": "slideforge",
+  "productName": "SlideForge",
   "description": "Generador inteligente de presentaciones con IA",
   "version": "1.0.0",
-  "author": "PowerPoint Generator Team",
-  "homepage": "https://github.com/tu-usuario/powerpoint-generator",
-  "main": "electron/main.cjs",
+  "author": "SlideForge Team",
+  "homepage": "https://github.com/RFLORESCARTES/SlideForge-v1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RFLORESCARTES/SlideForge-v1.2.git"
+  },
+  "main": "main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -28,8 +32,13 @@
     "docs:build": "npm run docs:pdf"
   },
   "build": {
-    "appId": "com.powerpointgenerator.app",
+    "appId": "com.slideforge.app",
     "productName": "SlideForge",
+    "publish": {
+      "provider": "github",
+      "owner": "RFLORESCARTES",
+      "repo": "SlideForge-v1.2"
+    },
     "directories": {
       "output": "dist-electron"
     },
@@ -55,8 +64,8 @@
       "darkModeSupport": true,
       "hardenedRuntime": true,
       "gatekeeperAssess": false,
-      "entitlements": "build/entitlements.plist",
-      "entitlementsInherit": "build/entitlements.plist",
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
       "notarize": {
         "teamId": "XXXXXXXXXX"
       },

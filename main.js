@@ -79,10 +79,10 @@ app.on('window-all-closed', () => {
 function createMenu() {
   const template = [
     {
-      label: 'PowerPoint Generator',
+      label: 'SlideForge',
       submenu: [
         {
-          label: 'Acerca de PowerPoint Generator',
+          label: 'Acerca de SlideForge',
           role: 'about'
         },
         { type: 'separator' },
@@ -93,7 +93,7 @@ function createMenu() {
         },
         { type: 'separator' },
         {
-          label: 'Ocultar PowerPoint Generator',
+          label: 'Ocultar SlideForge',
           accelerator: 'Command+H',
           role: 'hide'
         },
@@ -278,12 +278,12 @@ function createMenu() {
       label: 'Ayuda',
       submenu: [
         {
-          label: 'Acerca de PowerPoint Generator',
+          label: 'Acerca de SlideForge',
           click: () => {
             dialog.showMessageBox(mainWindow, {
               type: 'info',
-              title: 'Acerca de PowerPoint Generator',
-              message: 'PowerPoint Generator v1.0.0',
+              title: 'Acerca de SlideForge',
+              message: 'SlideForge v1.0.0',
               detail: 'Generador inteligente de presentaciones con IA\n\nDesarrollado con Electron y React\nPowered by OpenAI'
             });
           }
@@ -291,7 +291,7 @@ function createMenu() {
         {
           label: 'Documentación',
           click: () => {
-            shell.openExternal('https://github.com/tu-usuario/powerpoint-generator');
+            shell.openExternal('https://github.com/RFLORESCARTES/SlideForge-v1.2');
           }
         }
       ]
